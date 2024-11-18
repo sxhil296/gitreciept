@@ -29,7 +29,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex justify-end p-2 z-20">
+          <div className="z-20 fixed top-2 right-2">
             <ModeToggle />
           </div>
           {children}

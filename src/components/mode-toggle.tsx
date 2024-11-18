@@ -22,7 +22,7 @@ export function ModeToggle() {
       variant="default"
       size="icon"
       onClick={handleToggle}
-      className="rounded-lg"
+      className="rounded-full"
     >
       {currentTheme === "light" ? (
         <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all" />
