@@ -31,7 +31,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center min-h-[90vh] overflow-x-hidden">
       <form className="flex justify-center gap-4 p-4" onSubmit={handleSubmit}>
         <Input
           type="text"
